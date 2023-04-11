@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from プロジェクト &apos;UserService&apos;&#x0D;&#x0A;- 元のプロジェクト: &apos;UserService&apos;&#x0D;&#x0A;- オリジナル要素: &apos;UserService/src/main/java/com.example.demo.com.example.demo&apos;" description="要素を削除" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.demo.com.example.demo" element2="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.demo.com.example" element3="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.demo.com" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1679742730345" subPackages="false" version="1.0"/>
+</session>

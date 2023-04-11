@@ -1,0 +1,26 @@
+package com.example.demo.repo;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.mongodb.core.MongoTemplate;
+import org.springframework.data.mongodb.core.query.Criteria;
+import org.springframework.data.mongodb.core.query.Query;
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.example.demo.model.Rating;
+
+public interface RatingMongoRepo extends MongoRepository<Rating, String>{
+	@Autowired
+	private MongoTemplate mongoTemplate;
+	public static List<Rating> findByUserId(String userId) {
+		  Query query = new Query(Criteria.where("userId").is(userId));
+		  return mongoTemplate.find(query, Rating.class);
+		}
+
+	//Custom finder method
+	
+	//List<Rating> findByUserId(String userId);
+	List<Rating> findByHotelId(String hotelId);
+
+}

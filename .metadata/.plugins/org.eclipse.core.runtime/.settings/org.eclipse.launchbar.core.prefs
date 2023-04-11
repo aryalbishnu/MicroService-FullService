@@ -1,0 +1,9 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,\u30ED\u30FC\u30AB\u30EB/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,\u30ED\u30FC\u30AB\u30EB/name=\u30ED\u30FC\u30AB\u30EB
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,\u30ED\u30FC\u30AB\u30EB/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Service - ServiceApplication,org.eclipse.launchbar.core.descriptorType.default\:ServiceRegisterApplication,org.eclipse.launchbar.core.descriptorType.default\:ServiceRegister - ServiceRegisterApplication,org.eclipse.launchbar.core.descriptorType.default\:Config-Server - ConfigServerApplication,org.eclipse.launchbar.core.descriptorType.default\:ApiGateway - ApiGatewayApplication,org.eclipse.launchbar.core.descriptorType.default\:HotelService - HotelServiceApplication,org.eclipse.launchbar.core.descriptorType.default\:RatingService - RatingServiceApplication,org.eclipse.launchbar.core.descriptorType.default\:UserService - UserServiceApplication
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:ApiGateway\ -\ ApiGatewayApplication/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:ApiGateway\ -\ ApiGatewayApplication/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:\u30ED\u30FC\u30AB\u30EB
+org.eclipse.launchbar.core.descriptorType.default\:HotelService\ -\ HotelServiceApplication/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:HotelService\ -\ HotelServiceApplication/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:\u30ED\u30FC\u30AB\u30EB
